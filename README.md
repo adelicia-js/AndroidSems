@@ -12,3 +12,6 @@
 
 [3. Graphical Primitives](https://github.com/adelicia-js/AndroidSems/tree/main/3Graphics)
 - [Notes](https://github.com/adelicia-js/AndroidSems/tree/main/3Graphics/notes.md)
+
+[4. Intents](https://github.com/adelicia-js/AndroidSems/tree/main/4Intents)
+- [Notes](https://github.com/adelicia-js/AndroidSems/tree/main/4Intents/notes.md)
