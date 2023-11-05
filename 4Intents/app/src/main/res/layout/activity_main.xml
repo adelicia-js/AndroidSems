@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2EBF2"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intents Demo"
+        android:fontFamily="monospace"
+        android:layout_marginTop="300sp"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textFontWeight="900"
+        android:textColor="#00BFB6"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10sp"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:id="@+id/explicit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BFB6"
+            android:text="Explicit"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:textFontWeight="800"
+            android:layout_marginRight="10sp"
+            />
+
+        <Button
+            android:id="@+id/implicit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BFB6"
+            android:text="Implicit"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:textFontWeight="800"
+            />
+    </LinearLayout>
+</LinearLayout>
