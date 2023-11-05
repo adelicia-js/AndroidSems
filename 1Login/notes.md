@@ -25,4 +25,4 @@
 
         Toast.makeText(MainActivity.this, "message", Toast.LENGTH_SHORT).show();
         // MainActivity.this is the context (environment ig) 
-        //ez
+        // ez
