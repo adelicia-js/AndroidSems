@@ -72,7 +72,7 @@
 
 4. Video Player
 
-    - Download a video in app/main/res/raw 
+    - Download a video in `app/main/res/raw` 
 
         (will have to create the `raw` folder)
 
