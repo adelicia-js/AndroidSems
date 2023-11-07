@@ -94,3 +94,5 @@
 
             control.setAnchorView(video);
             video.setMediaController(control);
+
+[Back to Index](../README.md)

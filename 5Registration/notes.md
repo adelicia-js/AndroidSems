@@ -35,3 +35,5 @@
         String str = isChecked ? "Checked" : "Unchecked";
 
 5. Use Shared Preferences if possible to redirect after sign up.
+
+[Back to Index](../README.md)
