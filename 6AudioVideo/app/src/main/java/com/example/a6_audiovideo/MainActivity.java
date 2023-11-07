@@ -6,6 +6,7 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.Toast;
 import java.io.IOException;
 import android.widget.MediaController;
 import android.widget.VideoView;
@@ -15,20 +16,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
 
         Button playBtn = findViewById(R.id.play_btn);
-
         Button pauseBtn = findViewById(R.id.pause_btn);
 
         final int []flag = {1};
-
         final MediaPlayer player = new MediaPlayer();
 
-        Uri track = Uri.parse("https://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3");
+        Uri track = Uri.parse("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-17.mp3");
 
         player.setAudioAttributes(
                 new AudioAttributes.Builder()
@@ -47,19 +44,29 @@ public class MainActivity extends AppCompatActivity {
 
         playBtn.setOnClickListener(v->{
             player.start();
+            Toast.makeText(this, "playing...", Toast.LENGTH_LONG).show();
         });
 
         pauseBtn.setOnClickListener(v-> {
             if(flag[0]==1){
                 pauseBtn.setText("Resume");
                 player.pause();
+                Toast.makeText(this, "paused", Toast.LENGTH_LONG).show();
             }
             else {
                 pauseBtn.setText("Pause");
                 player.start();
+                Toast.makeText(this, "playing...", Toast.LENGTH_LONG).show();
             }
             flag[0] = flag[0] * -1;
         });
 
+        VideoView video = findViewById(R.id.kitty_video);
+        video.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.kitty1);
+        video.start();
+
+        MediaController control = new MediaController(this);
+        control.setAnchorView(video);
+        video.setMediaController(control);
     }
 }

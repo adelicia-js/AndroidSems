@@ -1,4 +1,6 @@
 1. Packages to import:
+    - android.widget.Button
+
     (audio player)
     - android.media.MediaPlayer
     - android.media.AudioAttributes
@@ -6,8 +8,6 @@
     - android.util.Log
     - java.io.IOException
     
-    - android.widget.Button
-
     (video player)
     - android.widget.MediaController
     - android.widget.VideoView
@@ -67,3 +67,30 @@
                 }
                 flag[0] = flaf[0] * -1;
             })
+
+    - Still figuring out how to change tracks lol
+
+4. Video Player
+
+    - Download a video in app/main/res/raw 
+
+        (will have to create the `raw` folder)
+
+    - Create a new video view
+
+            VideoView video = findViewById(R.id.kitty_video);
+
+    - Set up the video source
+
+            video.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.video_file);
+            
+            video.start()
+
+    - Create a new media controller
+        
+            MediaController media = new MediaController(this);
+
+    - Attach controller to video view
+
+            control.setAnchorView(video);
+            video.setMediaController(control);
