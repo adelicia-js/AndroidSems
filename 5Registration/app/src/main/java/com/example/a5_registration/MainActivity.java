@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             RadioButton genderSelected = findViewById(selected);
 
             String genderInput = genderSelected != null
-                                 ? genderSelected.getText().toString() 
+                                 ? genderSelected.getText().toString()
                                  : "";
             String newView = "Your details are:" +"\nEmail:"+ emailStr + "\nGender:" +genderInput+ "\nEmail Updates Enabled:" +terms;
 
