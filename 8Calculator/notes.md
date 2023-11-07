@@ -1,4 +1,4 @@
-1 - Packages to import:
+1. Packages to import:
  - android.widget.Button
  - android.widget.EditText
  - android.widget.TextView
@@ -6,7 +6,7 @@
  - android.view.View.OnClickListener (interface)
  - android.util.TextUtils
 
-2 - Implement the OnClickListener interface. Create buttons & initialize the onClickListener functions for all operations (+,-,*,/).
+2. Implement the OnClickListener interface. Create buttons & initialize the onClickListener functions for all operations (+,-,*,/).
 
     @Override
     public class MainActivity extends AppCompatActivity implements OnClickListener {
@@ -25,7 +25,7 @@
         //next steps
     }
 
-3 - Define onClick functions for the buttons
+3. Define onClick functions for the buttons
 
     @Override 
     public void onClick(View view) { 
@@ -42,7 +42,7 @@
         // next steps
     }
 
-4 - Check if EditTexts are empty for num1 & num2
+4. Check if EditTexts are empty for num1 & num2
 
     if(TextUtils.isEmpty(num1.getText().toString()) || TextUtils.isEmpty(num2.getText().toString()) {
         return;
@@ -51,17 +51,17 @@
         //next steps
     }
 
-5 - To parse above inputs to floats for the numbers
+5. To parse above inputs to floats for the numbers
 
     num = Float.parseFloat(numInput.getText().toString());
 
-6 - To get the id of button clicked
+6. To get the id of button clicked
 
     id = view.getId() //v is the view passed earlier
 
-7 - Use a if-else loop to determine the result
+7. Use a if-else loop to determine the result
 
-8 - Store the result in a string, and pass it to the empty TextView.
+8. Store the result in a string, and pass it to the empty TextView.
 
     TextView resultView = findViewById(R.id.result);
 

@@ -1,21 +1,21 @@
-1 - Add a image to `app/main/res/drawable`
+1. Add a image to `app/main/res/drawable`
 
-2 - Create a second activity, `activity_splash.xml`
+2. Create a second activity, `activity_splash.xml`
 
-3 - Swap out the MainActivity with SplashActivity in `AndroidManifest.xml` as the LAUNCHER activity
+3. Swap out the MainActivity with SplashActivity in `AndroidManifest.xml` as the LAUNCHER activity
 
-4 - Insert the image in an ImageView
+4. Insert the image in an ImageView
 
         <ImageView
             <!-- other styles -->
             android:src="@drawable/img_name"   
         />
 
-5 - Packages to import:
+5. Packages to import:
     - android.os.Handler
     - android.content.Intent
 
-6 - Set up splash screen
+6. Set up splash screen
 
     Handler handler = new Handler();
 
