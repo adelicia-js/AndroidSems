@@ -4,14 +4,17 @@
 
 ### Index:
 
-[1. Login Screen](https://github.com/adelicia-js/AndroidSems/tree/main/1Login)
-- [Notes](https://github.com/adelicia-js/AndroidSems/tree/main/1Login/notes.md)
+[1. Login Activity](https://github.com/adelicia-js/AndroidSems/tree/main/1Login)
+- [Notes](/1Login/notes.md)
 
 [2. Activity Lifecycle](https://github.com/adelicia-js/AndroidSems/tree/main/2ActivityLifecycle)
-- [Notes](https://github.com/adelicia-js/AndroidSems/tree/main/2ActivityLifecycle/notes.md)
+- [Notes](/2ActivityLifecycle/notes.md)
 
 [3. Graphical Primitives](https://github.com/adelicia-js/AndroidSems/tree/main/3Graphics)
-- [Notes](https://github.com/adelicia-js/AndroidSems/tree/main/3Graphics/notes.md)
+- [Notes](/3Graphics/notes.md)
 
 [4. Intents](https://github.com/adelicia-js/AndroidSems/tree/main/4Intents)
-- [Notes](https://github.com/adelicia-js/AndroidSems/tree/main/4Intents/notes.md)
+- [Notes](/4Intents/notes.md)
+
+[5. Registration Activity](https://github.com/adelicia-js/AndroidSems/tree/main/5Registration)
+- [Notes](/5Registration/notes.md) 
