@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator App"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        />
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+    >
+        <EditText
+            android:id="@+id/number1_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Number 1"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+        />
+
+        <EditText
+            android:id="@+id/number2_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Number 2"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            >
+            <Button
+                android:id="@+id/add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="30sp"
+                android:layout_marginRight="15sp"
+                />
+
+            <Button
+                android:id="@+id/sub_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="30sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            >
+
+            <Button
+                android:id="@+id/mul_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:textSize="30sp"
+                android:layout_marginRight="15sp"
+                />
+
+            <Button
+                android:id="@+id/div_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textSize="30sp"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:layout_gravity="center"
+            android:fontFamily="monospace"
+            android:textFontWeight="700"
+        />
+
+</LinearLayout>
