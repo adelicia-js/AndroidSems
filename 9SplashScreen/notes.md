@@ -28,7 +28,6 @@
             startActivity(intent);
             
             finish();
-        }
-    }, 3000);
+        }}, 3000);
     
 [Back to Index](../README.md)
