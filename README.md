@@ -18,6 +18,9 @@
 
 [5. Registration Activity](https://github.com/adelicia-js/AndroidSems/tree/main/5Registration)
 - [Notes](/5Registration/notes.md)
- 
+
 [6. Audio/Video Player](https://github.com/adelicia-js/AndroidSems/tree/main/6AudioVideo)
 - [Notes](/6AudioVideo/notes.md)
+
+[7. Movie Rating App](https://github.com/adelicia-js/AndroidSems/tree/main/7MovieRating)
+- [Notes](/7MovieRating/notes.md)

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F3E5F5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barbie"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:fontFamily="cursive"
+        android:textFontWeight="700"
+        android:textColor="#8E24AA"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/gender_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your choice:"
+            android:fontFamily="monospace"
+            android:textSize="20sp"
+            android:textColor="#8E24AA"
+            />
+
+        <RadioGroup
+            android:id="@+id/favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:orientation="vertical"
+            >
+            <RadioButton
+                android:id="@+id/choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 1"
+                android:fontFamily="monospace"
+                android:textSize="20sp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:textColor="#8E24AA"
+                />
+            <RadioButton
+                android:id="@+id/choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 2"
+                android:fontFamily="monospace"
+                android:textSize="20sp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:textColor="#8E24AA"
+                />
+            <RadioButton
+                android:id="@+id/choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 3"
+                android:fontFamily="monospace"
+                android:textSize="20sp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:textColor="#8E24AA"
+            />
+            <RadioButton
+                android:id="@+id/choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choice 4"
+                android:fontFamily="monospace"
+                android:textSize="20sp"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:textColor="#8E24AA"
+                />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            >
+
+            <TextView
+                android:id="@+id/rating_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rate the movie"
+                android:textSize="20sp"
+                android:textColor="#8E24AA"
+                />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                android:theme="@style/RatingBar"
+                android:layout_marginLeft="-25sp"
+                android:layout_marginTop="-12sp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
