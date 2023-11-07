@@ -100,4 +100,6 @@
 
         }
 
+6. To create a landscape mode file for the main activity, go to Design, click on the smol menu for activity_main.xml -> Create Landscape Qualifier. Tada.
+
 [Back to Index](../README.md)
