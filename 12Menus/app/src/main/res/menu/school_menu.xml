@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/itSJU"
+        android:title="School of IT"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_launcher_background"
+        >
+        <menu>
+            <item
+                android:id="@+id/bdaSJU"
+                android:title="Big Data Analytics"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/csSJU"
+                android:title="Computer Science"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/sciSJU"
+        android:title="School of Physical Sciences"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/phySJU"
+                android:title="Physics"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/mathSJU"
+                android:title="Mathematics"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+
+</menu>
