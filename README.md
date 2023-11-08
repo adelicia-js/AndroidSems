@@ -31,17 +31,10 @@
 [9. Splash Screen](https://github.com/adelicia-js/AndroidSems/tree/main/9SplashScreen)
 - [Notes](/9SplashScreen/notes.md)
 
-[10. Map App](https://github.com/adelicia-js/AndroidSems/tree/main/10Map)
-- [Notes](/10Map/notes.md)
-
-[11. CRUD App with SQLite](https://github.com/adelicia-js/AndroidSems/tree/main/11CRUD)
-- [Notes](/11CRUD/notes.md)
-
 [12. Menus App](https://github.com/adelicia-js/AndroidSems/tree/main/12Menus)
 - [Notes](/12Menus/notes.md)
 
 [13. Change Styles App](https://github.com/adelicia-js/AndroidSems/tree/main/13ChangeStyles)
-- [Notes](/13ChangeStyles/notes.md)
 
 [14. Shared Preferences](https://github.com/adelicia-js/AndroidSems/tree/main/14SharedPreferences)
 - [Notes](/14SharedPreferences/notes.md)    
