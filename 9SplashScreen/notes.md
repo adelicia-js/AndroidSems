@@ -17,9 +17,9 @@
 
 6. Set up splash screen
 
-    Handler handler = new Handler();
+            Handler handler = new Handler();
 
-    handler.postDelayed(new Runnable(){
+            handler.postDelayed(new Runnable(){
         
         @Override
         public void run(){   
